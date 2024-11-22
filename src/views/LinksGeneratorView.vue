@@ -120,6 +120,7 @@ function upload() {
           long_url: link.innerText,
           kelas: ketKelas.innerText + ' / ' + tingkat.innerText,
           mapel: mapel.innerText,
+          token: token.innerText,
           short: '',
         }
 
